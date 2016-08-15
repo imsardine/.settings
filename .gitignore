@@ -1,5 +1,6 @@
 /*
 !.gitignore
+!.bash_profile
 !.tmux.conf
 !.vimrc
 !.vim/bundle/
