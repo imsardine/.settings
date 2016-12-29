@@ -28,5 +28,8 @@ set ruler
 syntax on
 set expandtab
 set fileencodings=utf-8,big5
+set clipboard=unnamedplus " Use global clipboard
 
 set hidden
+
+iab time: <c-r>=strftime("%Y-%m-%d %H:%M")<cr>
