@@ -26,6 +26,7 @@ set hlsearch
 set directory=~/tmp,/var/tmp,/tmp,.
 set ruler
 syntax on
+autocmd! bufreadpost *.md set syntax=off " disable syntax highlighting for Markdown
 set expandtab
 set fileencodings=utf-8,big5
 set clipboard=unnamedplus " Use global clipboard
