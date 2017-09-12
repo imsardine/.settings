@@ -3,3 +3,5 @@
 	email = imsardine@gmail.com
 [alias]
 	tree = log --graph --decorate --pretty=oneline --abbrev-commit
+[core]
+	editor = /usr/bin/vim
