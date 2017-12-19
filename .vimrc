@@ -18,7 +18,7 @@ filetype plugin indent on    " required
 
 set number
 set tabstop=4 expandtab
-set list listchars=tab:\|.
+set list listchars=eol:¬,tab:▸·,trail:⎵
 set shiftwidth=2
 set ignorecase
 set laststatus=2
