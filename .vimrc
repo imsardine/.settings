@@ -17,8 +17,9 @@ filetype plugin indent on    " required
 " Put your non-Plugin stuff after this line
 
 set number
-set tabstop=4
-set shiftwidth=4
+set tabstop=4 expandtab
+set list listchars=tab:\|.
+set shiftwidth=2
 set ignorecase
 set laststatus=2
 set linebreak
@@ -27,7 +28,6 @@ set directory=~/tmp,/var/tmp,/tmp,.
 set ruler
 syntax on
 autocmd! bufreadpost *.md set syntax=off " disable syntax highlighting for Markdown
-set expandtab
 set fileencodings=utf-8,big5
 set clipboard=unnamedplus " Use global clipboard
 
