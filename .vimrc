@@ -18,6 +18,7 @@ filetype plugin indent on    " required
 
 set number
 set tabstop=4 expandtab
+inoremap <S-Tab> <C-V><Tab>
 set list listchars=tab:▸·,trail:⎵
 set shiftwidth=2
 set ignorecase
